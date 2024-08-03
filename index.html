@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O mistério do bolo desaparecido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="bolo-sumiu.jpg" alt="">
+            <p>Um dia desses, Maria percebeu que alguém tinha comido seu bolo na geladeira. Decidida a descobrir o culpado, ela começou sua investigação.</p>
+            <button class="btn-proximo" data-proximo="1">Procurar pistas no quarto</button>
+            <button class="btn-proximo" data-proximo="2">Procurar pistas na sala</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Maria não encontrou nenhum vestígio do crime no quarto.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar pistas no banheiro</button>
+            <button class="btn-proximo" data-proximo="4">Procurar pistas no quintal</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Maria encontrou um farelo de bolo na sala, uma pista importante para o caso.</p>
+            <button class="btn-proximo" data-proximo="5">Interrogar a mãe</button>
+            <button class="btn-proximo" data-proximo="6">Interrogar o irmão</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No banheiro, Maria não encontrou nada relacionado ao bolo.</p>
+            <button class="btn-proximo" data-proximo="7">Descansar um pouco antes de continuar a investigação</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="desistir.jpeg" alt="">
+            <p>Maria decide que a aventura é grande demais e volta para casa, mas sempre se perguntará se teria encontrado mais pistas sobre o bolo.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Maria decide interrogar sua mãe sobre o bolo.</p>
+            <button class="btn-proximo" data-proximo="7">Concluir que está tudo bem se a mãe comeu o bolo</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Maria vai até o quarto do seu irmão para interrogá-lo.</p>
+            <button class="btn-proximo" data-proximo="8">Verificar o banheiro do irmão</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Maria faz perguntas à sua mãe.</p>
+            <button class="btn-proximo" data-proximo="9">Mãe, você comeu meu bolo?</button>
+            <button class="btn-proximo" data-proximo="10">Mãe, o bolo estava bom?</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Maria percebe que não há nada suspeito no banheiro do irmão.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para a mãe e fazer mais perguntas</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>A mãe de Maria diz que "não" comeu o bolo.</p>
+            <button class="btn-proximo" data-proximo="11">Voltar a suspeitar do irmão</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>A mãe de Maria admite que o bolo estava delicioso e que ela e o irmão de Maria comeram juntos.</p>
+            <button class="btn-proximo" data-proximo="12">Agradecer à mãe pelo bolo</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="meu-irmao.jpg" alt="">
+            <p>Maria conclui que seu irmão também comeu o bolo.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>A mãe de Maria promete fazer um bolo ainda maior para ela.</p>
+            <button class="btn-proximo" data-proximo="11">Confrontar o irmão sobre o bolo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
